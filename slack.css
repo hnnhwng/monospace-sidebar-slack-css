@@ -1,0 +1,57 @@
+@media (max-width:600px) {
+    .client_channels_list_container, div#channel_calls_container, div#search_container, span#channel_members_toggle_count_count, span#pinned_item_count_count {
+        display: none!important
+    }
+    #client-ui.flexbox_client.flex_pane_showing #col_flex,
+    .flexbox_client #flex_contents {
+        width: 100%!important
+    }
+    #client-ui.flexbox_client.flex_pane_showing div#footer_msgs {
+        display: none
+    }
+    .flex_header {
+        width: auto!important
+    }
+    .client_container #client_body {
+        margin-top: 4px
+    }
+    textarea#msg_input {
+        margin-left: 2px
+    }
+    #messages_container,
+    .input_note_special,
+    .modal_input_note,
+    .modal_input_note_full_width,
+    span#upload_file_title_instructions {
+        margin-left: 0
+    }
+    .channel_title_info {
+        margin-right: 0
+    }
+    .modal.fade.in {
+        left: 50%!important
+    }
+    .modal input[type=text],
+    .modal textarea,
+    div#select_share_channels,
+    ts-jumper-container {
+        width: 100%!important
+    }
+    #client_header .channel_header {
+        margin-left: 0!important
+    }
+    #client_body:not(.onboarding)::before {
+        margin-left: 0;
+        left: 0;
+        height: 0
+    }
+    div#msgs_scroller_div {
+        margin: 0!important
+    }
+}
+body {
+    min-width: 0
+}
+* {
+    font-family: Inconsolata, Consolas, monospace!important
+}
