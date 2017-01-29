@@ -48,6 +48,10 @@
     div#msgs_scroller_div {
         margin: 0!important
     }
+    .file_preview_preserve_aspect_ratio {
+        width: auto !important;
+        height: auto !important
+    }
 }
 body {
     min-width: 0
